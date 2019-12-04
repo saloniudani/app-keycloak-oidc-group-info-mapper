@@ -21,7 +21,7 @@ public class GroupInfoMapper extends AbstractOIDCProtocolMapper implements OIDCA
         OIDCAttributeMapperHelper.addIncludeInTokensConfig(configProperties, GroupInfoMapper.class);
     }
 
-    public static final String PROVIDER_ID = "app-oidc-group-info-mapper";
+    public static final String PROVIDER_ID = "app-keycloak-oidc-group-info-mapper";
 
 
     public List<ProviderConfigProperty> getConfigProperties() {
